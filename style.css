@@ -1,0 +1,68 @@
+body {
+    font-family: system-ui;
+    background: #9999ff;
+    color: black;
+    text-align: center ! important ;
+  }
+  .smaller-image {
+    width: 500px;
+  }
+  .center {
+    margin: auto;
+    padding: auto;
+    text-align: center;
+  }
+  #image {
+    max-width: 50%;
+    height: auto;
+    display: block;
+  }
+  .font {
+    padding: 0px 200px 15px 200px;
+  }
+  h3 {
+    text-align: center;
+  }
+  #title {
+    font-size: 400%;
+    width: 60vmax;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    padding: 0px 200px 15px 400px;
+  }
+  
+    @media only screen and (min-width: 480px) {
+      p {
+        justify-content: center;
+      }
+  }
+  
+    @media only screen and (min-width: 767px) {
+      body {
+        text-align: center;
+      }
+  }
+  
+    @media only screen and (min-width: 991px) {
+      
+  }
+  
+  @media only screen and (min-width:1200px)
+  
+    {
+  
+   .font {
+  
+      padding: 0px 200px 15px 200px;
+  
+          }
+  
+    }
+  
+    @media(orientation: landscape)
+  
+    {
+  
+  }
